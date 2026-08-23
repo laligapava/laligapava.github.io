@@ -555,6 +555,25 @@ img { -webkit-user-drag: none; user-select: none; }
 .form-success p { color: var(--ink-soft); margin-top: 12px; font-weight: 500; }
 
 /* ============================================================
+   MICRO-INTERACCIONES — feedback de pulsación (v8)
+   ============================================================ */
+.btn,.circle-btn,.acc-close,.chip span,.field-pop,.perk-card,.ev-row,.modal-close,.ico-btn { transition: transform .16s cubic-bezier(.23,1,.32,1), background .25s, color .25s, box-shadow .25s, border-color .25s; }
+.btn:active { transform: scale(0.97) !important; }
+.circle-btn:active { transform: scale(0.92) rotate(45deg) !important; }
+.acc-close:active { transform: scale(0.96); }
+.chip span:active { transform: scale(0.97); }
+.field-pop:active img { transform: scale(0.98); }
+.perk-card:active { transform: scale(0.98) !important; }
+.ev-row:active { transform: scale(0.985) !important; }
+.modal-close:active { transform: scale(0.92) rotate(90deg) !important; }
+.ico-btn:active { transform: scale(0.92) !important; }
+
+/* hover-solo en dispositivos con puntero real: evita estados "pegados" al tocar */
+@media not all and (hover: hover) and (pointer: fine) {
+  .crest-group img:hover,.perk-card:hover,.perk-card:hover .perk-img-wrap,.field-pop:hover img,.backed-by-logos a:hover,.staff-photo:hover img,.ev-row:hover .go,.ico-btn:hover,.circle-btn:hover,.s-card.moments:hover .moments-grid img,.div-row:hover,.fmt-card:hover,.media-ev:hover,.std-tab:hover { transform: none; animation: none; }
+}
+
+/* ============================================================
    MOBILE REFINEMENT PASS (≤480px) — desktop untouched
    ============================================================ */
 @media (max-width: 480px) {

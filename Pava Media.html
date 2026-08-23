@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0E0E11" />
+<title>Pava Media | Productora Audiovisual Deportiva</title>
+<meta name="apple-mobile-web-app-title" content="Pava Media" />
+<meta name="application-name" content="Pava Media" />
+<meta name="description" content="Pava Media: narración en directo, fotografía y producción de vídeo para eventos deportivos en Castelldefels y Sant Boi. Productora oficial de La Liga Pava." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://laligapava.com/Pava%20Media.html" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Pava Media | Productora Audiovisual Deportiva" />
+<meta property="og:description" content="Narración en directo, fotografía y producción de vídeo para eventos deportivos. Productora oficial de La Liga Pava." />
+<meta property="og:image" content="https://laligapava.com/assets/quote-narradores.jpg" />
+<meta property="og:locale" content="es_ES" />
+<meta name="twitter:card" content="summary_large_image" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Pava Media","description":"Productora audiovisual deportiva: narración en directo, fotografía y producción de vídeo para eventos deportivos.","url":"https://laligapava.com/Pava%20Media.html","areaServed":["Castelldefels","Sant Boi"],"parentOrganization":{"@type":"Organization","name":"La Liga Pava","url":"https://laligapava.com/"}}</script>
+<link rel="icon" href="assets/logo-pava-media-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=JetBrains+Mono:wght@400;500;700&display=swap" />
+<link rel="stylesheet" href="liga-web-v8.css?v=1" />
+<style>
+.pm-topbar{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:20px var(--pad);background:rgba(255,255,255,0.88);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);box-shadow:0 1px 0 var(--line)}
+.pm-topbar .wm{font-family:var(--font-display);font-size:clamp(15px,4vw,18px);letter-spacing:0.01em;display:flex;align-items:center;gap:9px}
+.pm-topbar .wm img{height:26px;width:auto;display:block}
+.pm-topbar .wm-sep{color:var(--line);font-weight:400;margin:0 2px}
+.pm-topbar .wm-sub{font-family:var(--font-mono);font-size:11.5px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-soft)}
+@media (max-width:640px){.pm-topbar .wm-sep,.pm-topbar .wm-sub{display:none}}
+.pm-topbar a.back{font-family:var(--font-mono);font-size:11.5px;letter-spacing:0.06em;text-transform:uppercase;color:var(--ink-soft);display:flex;align-items:center;gap:6px}
+.pm-topbar a.back:hover{color:var(--ink)}
+.pm-hero{padding-top:96px}
+@media (max-width:640px){.pm-hero{padding-top:78px}}
+.pm-hero .hero-word span{font-size:clamp(34px,11vw,180px)}
+.pm-hero-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:18px}
+.pm-hero .hero-body h1{white-space:normal}
+@media (max-width:480px){.pm-hero .hero-body h1{font-size:5.7vw;line-height:1.15;white-space:nowrap}}
+@media (max-width:768px){.pm-hero .hero-tags{flex-wrap:nowrap;justify-content:center;gap:1.2vw;padding:10px 0;white-space:nowrap}.pm-hero .hero-tags,.pm-hero .hero-tags span{font-size:2.05vw;letter-spacing:.02em}}
+@media (max-width:480px){.pm-hero .hero-tags{gap:1.1vw}.pm-hero .hero-tags,.pm-hero .hero-tags span{font-size:2.05vw}}
+.svc-grid{margin-top:clamp(24px,4vh,40px);display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.svc-card{background:var(--ink);color:#fff;border-radius:20px;padding:24px 22px;display:flex;flex-direction:column;gap:14px;min-height:200px}
+.svc-num{color:var(--red);line-height:0.8}
+.svc-num svg{width:32px;height:32px}
+.svc-title{font-weight:800;font-size:17px}
+.svc-desc{font-size:13.5px;line-height:1.5;color:rgba(255,255,255,0.75);font-weight:500}
+@media (max-width:900px){.svc-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.svc-grid{grid-template-columns:1fr}}
+.proc-grid{margin-top:clamp(24px,4vh,40px);display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.proc-card{background:var(--black-2);border-radius:18px;padding:22px 20px;display:flex;flex-direction:column;gap:10px;position:relative}
+.proc-wm{position:absolute;top:22px;right:20px;font-size:40px;opacity:.14;line-height:1;filter:grayscale(1);display:flex;align-items:center;justify-content:center;height:44px}
+.proc-num{font-family:var(--font-display);font-size:44px;color:rgba(255,255,255,0.18);line-height:0.8}
+.proc-title{font-weight:800;font-size:15.5px;color:#fff}
+.proc-desc{font-family:var(--font-mono);font-size:11.5px;line-height:1.5;letter-spacing:0.02em;color:rgba(255,255,255,0.55)}
+@media (max-width:900px){.proc-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.proc-grid{grid-template-columns:1fr}}
+.pm-final{text-align:center;padding:clamp(20px,3vh,32px) var(--pad) clamp(56px,8vh,84px)}
+#proceso{margin-top:clamp(56px,9vh,96px)}
+#proceso .paths-head .lbl-l,#proceso .paths-head .lbl-r{color:rgba(255,255,255,0.55)}
+@media (max-width:480px){#proceso{margin-top:40px}}
+.pm-final h3{font-family:var(--font-display);font-weight:400;font-size:clamp(30px,7vw,64px);line-height:1.05;margin:0 0 20px;color:#fff}
+.pm-final h3 .hl{color:var(--red)}
+.pm-final-ctas{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.pm-footer-wordmark span{font-size:clamp(28px,9.5vw,150px)}
+.pm-wa{color:#fff;border-color:rgba(255,255,255,0.28);transition:box-shadow .3s,border-color .3s}
+.pm-wa:hover{border-color:#25D366;box-shadow:0 0 0 3px rgba(37,211,102,0.25),0 0 24px rgba(37,211,102,0.55)}
+.closing{padding-top:clamp(8px,1.5vh,16px)}
+@media (max-width:768px){.pm-hero .values-row{flex-wrap:nowrap;justify-content:center;gap:0.8vw;white-space:nowrap}.pm-hero .values-row,.pm-hero .values-row span{font-size:1.62vw;letter-spacing:0}}
+@media (max-width:480px){
+  .svc-card{min-height:0;padding:18px 16px;gap:10px}
+  .svc-num{font-size:28px}
+  .svc-title{font-size:15px}
+  .svc-desc{font-size:12px;line-height:1.4}
+  .proc-card{padding:16px 14px}
+  .proc-num{font-size:34px}
+  .proc-title{font-size:14px}
+  .proc-desc{font-size:10.5px;line-height:1.4}
+  .ev-row .info .d{font-size:9px}
+  .pm-final h3{font-size:clamp(22px,7.5vw,30px);white-space:nowrap}
+.pm-mob-br{display:none}
+@media (max-width:480px){.pm-mob-br{display:block}.pm-final h3{font-size:9.2vw;line-height:1.12}}
+}
+.closing-inline h3,.why-head h2,.events-head h2{white-space:normal !important}
+</style>
+</head>
+<body>
+
+<template id="__bundler_thumbnail" data-bg-color="#0E0E11">
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<rect width="200" height="200" fill="#0E0E11"/>
+<text x="100" y="115" font-family="Arial,sans-serif" font-size="52" font-weight="900" fill="#F26B1F" text-anchor="middle">PM</text>
+</svg>
+</template>
+
+<div class="pm-topbar">
+  <span class="wm"><img src="assets/logo-pava-media-mark.png" alt="">PAVA <span style="color:var(--red)">MEDIA</span><span class="wm-sep">|</span><span class="wm-sub">Productora Audiovisual Deportiva</span></span>
+  <a class="back" href="https://laligapava.com/" target="_blank" rel="noopener">← La Liga Pava</a>
+</div>
+
+<header class="hero pm-hero" id="top" data-screen-label="Hero" style="background:var(--paper)">
+  <div class="hero-word reveal" aria-hidden="true"><span>PAVA </span><span class="o">MEDIA</span></div>
+  <div class="wrap">
+    <div class="hero-tags reveal">
+      <span>+ Deporte local</span>
+      <span>Fotografía y vídeo</span>
+      <span>Cada evento, narrado en directo +</span>
+    </div>
+  </div>
+  <div class="hero-photo-wrap reveal">
+    <div class="hero-photo">
+      <img src="assets/quote-narradores.jpg" alt="Narradores de Pava Media en directo" loading="eager" decoding="async" width="800" height="1000" style="object-position:center 25%" />
+      <div class="hero-floater fl">Cámara en mano<br/>cada jornada</div>
+      <div class="hero-floater fr">Del campo<br/>a la pantalla</div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-body reveal" data-delay="1">
+      <h1>Contamos <span class="g">tu evento</span> como se merece<span class="ast">*</span></h1>
+    </div>
+    <div class="pm-hero-cta reveal" data-delay="1">
+      <a class="btn btn-dark" href="#trabajos">Ver trabajos</a>
+      <a class="btn btn-primary" href="https://instagram.com/lapavamedia" target="_blank" rel="noopener">Trabaja con nosotros</a>
+    </div>
+    <div class="values-row reveal" data-delay="1">
+      <span><span class="x">+</span> Narración en directo</span>
+      <span><span class="x">+</span> Fotografía</span>
+      <span><span class="x">+</span> Vídeo y resúmenes</span>
+      <span><span class="x">+</span> Streaming</span>
+      <span><span class="x">+</span> Cobertura de eventos</span>
+    </div>
+  </div>
+</header>
+
+<section class="why" id="servicios" data-screen-label="Servicios">
+  <div class="wrap">
+    <div class="why-head">
+      <div>
+        <h2 class="reveal">Lo que hacemos</h2>
+        <p class="why-sub reveal" data-delay="1">Producción audiovisual deportiva de principio a fin.</p>
+      </div>
+      <div class="lbl reveal" data-delay="1">Servicios</div>
+    </div>
+    <div class="svc-grid reveal" data-delay="1">
+      <div class="svc-card">
+        <div class="svc-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="11" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v4"/><path d="M9 21h6"/></svg></div>
+        <div class="svc-title">Narración en directo</div>
+        <div class="svc-desc">Comentaristas y transmisión en streaming para que cada partido se viva como un evento.</div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a2 2 0 0 1 2-2h1.5l1-1.6h6l1 1.6H17a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8Z"/><circle cx="12" cy="13" r="3.4"/></svg></div>
+        <div class="svc-title">Fotografía</div>
+        <div class="svc-desc">Cobertura fotográfica profesional de cada jornada, gol a gol y momento a momento.</div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="13" height="12" rx="2"/><path d="M15.5 10.5 21 7.5v9l-5.5-3"/></svg></div>
+        <div class="svc-title">Vídeo y resúmenes</div>
+        <div class="svc-desc">Videoresúmenes y piezas de highlights listas para redes, con el ritmo de un partido real.</div>
+      </div>
+      <div class="svc-card">
+        <div class="svc-num"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 4h12v4a6 6 0 0 1-12 0V4Z"/><path d="M6 5H3v2a4 4 0 0 0 3.4 4"/><path d="M18 5h3v2a4 4 0 0 1-3.4 4"/><path d="M12 14v3"/><path d="M8.5 20.5h7"/><path d="M10 17.5h4v3h-4z"/></svg></div>
+        <div class="svc-title">Cobertura de eventos</div>
+        <div class="svc-desc">De torneos de fútbol a veladas de boxeo: producción completa para eventos deportivos de cualquier formato.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="events" id="trabajos" data-screen-label="Trabajos destacados">
+  <div class="wrap">
+    <div class="events-head">
+      <div>
+        <div class="eyebrow reveal"><span class="dot rec"></span>Producción propia</div>
+        <h2 class="reveal" data-delay="1">Trabajos destacados</h2>
+      </div>
+      <div class="lead reveal" data-delay="1">Una muestra de los eventos que hemos cubierto.</div>
+    </div>
+    <div class="ev-list">
+      <a class="ev-row hi reveal" href="https://www.youtube.com/@laligapava/videos" target="_blank" rel="noopener">
+        <div class="thumb"><img src="assets/logo-domingo-pavo.png" alt="La Liga Pava" loading="lazy" decoding="async" width="100" height="100" /></div>
+        <div class="info">
+          <div class="tags"><span>Fútbol 7</span><span>Narración en directo</span></div>
+          <div class="t">La Liga Pava</div>
+          <div class="d">Narración, streaming y fotografía cada domingo, temporada tras temporada.</div>
+        </div>
+        <div class="go">↗</div>
+      </a>
+      <a class="ev-row reveal" href="https://www.youtube.com/@laligapava/videos" target="_blank" rel="noopener">
+        <div class="thumb logo"><img src="assets/f7-cup-logo.jpeg" alt="F7 International Cup" loading="lazy" decoding="async" width="100" height="100" /></div>
+        <div class="info">
+          <div class="tags"><span>Fútbol 7</span><span>Torneo internacional</span></div>
+          <div class="t">F7 International Cup</div>
+          <div class="d">Cobertura internacional en directo del torneo de fútbol 7 semiprofesional más importante de los últimos años.</div>
+        </div>
+        <div class="go">↗</div>
+      </a>
+      <a class="ev-row reveal" href="https://www.youtube.com/live/lwybAEVHNfo?si=dRZLAchEvrnhex35" target="_blank" rel="noopener">
+        <div class="thumb logo"><img src="assets/ev-cikup-logo.png" alt="CIKUP" loading="lazy" decoding="async" width="100" height="100" /></div>
+        <div class="info">
+          <div class="tags"><span>Fútbol base</span><span>Torneo internacional</span></div>
+          <div class="t">CIKUP — Castelldefels International Cup</div>
+          <div class="d">Cobertura completa de un torneo con más de 30 canteras, entre ellas FC Barcelona, Real Madrid y PSG.</div>
+        </div>
+        <div class="go">↗</div>
+      </a>
+      <a class="ev-row reveal" href="https://www.youtube.com/watch?v=To068-Gjrk4" target="_blank" rel="noopener">
+        <div class="thumb logo"><img src="assets/ev-fiba-logo.png" alt="FIBA U13-U14" loading="lazy" decoding="async" width="100" height="100" /></div>
+        <div class="info">
+          <div class="tags"><span>Baloncesto</span><span>Torneo internacional</span></div>
+          <div class="t">FIBA U13-U14</div>
+          <div class="d">Cobertura audiovisual del torneo internacional de baloncesto formativo.</div>
+        </div>
+        <div class="go">↗</div>
+      </a>
+      <a class="ev-row reveal" href="https://www.twitch.tv/videos/2793326987" target="_blank" rel="noopener">
+        <div class="thumb logo"><img src="assets/ev-boxing-logo.png" alt="The Golden Boxing Fighters" loading="lazy" decoding="async" width="100" height="100" /></div>
+        <div class="info">
+          <div class="tags"><span>Boxeo</span><span>Velada en directo</span></div>
+          <div class="t">The Golden Boxing Fighters</div>
+          <div class="d">Producción completa de la velada de boxeo: narración, cámaras y ambiente de ring.</div>
+        </div>
+        <div class="go">↗</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="paths" id="proceso" data-screen-label="Proceso" style="background:var(--black);color:#fff;border-top:1px solid rgba(255,255,255,0.1)">
+  <div class="wrap">
+    <div class="why-head">
+      <div>
+        <h2 class="reveal" style="color:#fff">Cómo trabajamos</h2>
+        <p class="why-sub reveal" data-delay="1" style="color:rgba(255,255,255,0.6)">De la primera llamada a la entrega final.</p>
+      </div>
+      <div class="lbl reveal" data-delay="1" style="color:rgba(255,255,255,0.5)">Proceso</div>
+    </div>
+    <div class="proc-grid reveal" data-delay="1">
+      <div class="proc-card">
+        <span class="proc-wm">✎</span>
+        <div class="proc-num">01</div>
+        <div class="proc-title">Brief</div>
+        <div class="proc-desc">Kickoff con el cliente: formato de evento, sede, aforo y objetivo de la pieza final (directo, resumen, redes).</div>
+      </div>
+      <div class="proc-card">
+        <span class="proc-wm">◷</span>
+        <div class="proc-num">02</div>
+        <div class="proc-title">Planificación</div>
+        <div class="proc-desc">Plan de cobertura: número de cámaras y ángulos, guion de narración, equipo de audio y hoja de ruta del día.</div>
+      </div>
+      <div class="proc-card">
+        <span class="proc-wm">▶</span>
+        <div class="proc-num">03</div>
+        <div class="proc-title">Grabación</div>
+        <div class="proc-desc">Multicámara en directo, narración en vivo y fotografía simultánea: cobertura completa sin cortes ni segundas tomas.</div>
+      </div>
+      <div class="proc-card">
+        <span class="proc-wm">▢</span>
+        <div class="proc-num">04</div>
+        <div class="proc-title">Entrega</div>
+        <div class="proc-desc">Montaje y color, selección de fotografía y videoresumen editado al ritmo del partido, listo para publicar.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="closing" data-screen-label="CTA final">
+  <div class="pm-final reveal">
+    <h3>¿Tienes un evento que<br class="pm-mob-br"> <span class="hl">merece</span> ser contado?</h3>
+    <div class="pm-final-ctas">
+      <a class="btn btn-primary" href="https://instagram.com/lapavamedia" target="_blank" rel="noopener">Escríbenos por Instagram</a>
+      <a class="btn btn-outline pm-wa" href="https://wa.me/34638704620?text=Hola%2C%20he%20visto%20la%20web%20de%20Pava%20Media%20y%20me%20interesa" target="_blank" rel="noopener">Escríbenos por WhatsApp</a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer" data-screen-label="Footer">
+  <div class="wrap">
+    <div class="foot-contact" style="border-top:none;margin-top:0">
+      <span>Castelldefels — Sant Boi</span>
+      <div class="foot-social-icons">
+        <a class="ico-btn facebook" href="https://facebook.com/laligapava2023" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 21v-7.5h2.5l.4-3H13.5V8.5c0-.87.24-1.46 1.49-1.46H16.5V4.35c-.26-.03-1.16-.11-2.2-.11-2.18 0-3.67 1.33-3.67 3.77V10.5H8.1v3h2.53V21h2.87Z"/></svg>
+        </a>
+        <a class="ico-btn instagram" href="https://instagram.com/lapavamedia" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a class="ico-btn youtube" href="https://youtube.com/@lapavamedia" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12s0-3.4-.44-5a2.8 2.8 0 0 0-1.96-2C17.9 4.5 12 4.5 12 4.5s-5.9 0-7.6.5a2.8 2.8 0 0 0-1.96 2C2 8.6 2 12 2 12s0 3.4.44 5a2.8 2.8 0 0 0 1.96 2c1.7.5 7.6.5 7.6.5s5.9 0 7.6-.5a2.8 2.8 0 0 0 1.96-2c.44-1.6.44-5 .44-5Z" stroke="none"/><path d="M10 15.2V8.8l6 3.2-6 3.2Z" fill="var(--black)" stroke="none"/></svg>
+        </a>
+        <a class="ico-btn mail" href="mailto:lapavamedia@gmail.com" aria-label="Correo">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="19" height="15" rx="2.4"/><path d="M3.2 6l8.8 6.6L20.8 6"/></svg>
+        </a>
+        <a class="ico-btn whatsapp" href="https://wa.me/34638704620?text=Hola%2C%20he%20visto%20la%20web%20de%20Pava%20Media%20y%20me%20interesa" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.2A9.8 9.8 0 0 0 3.6 17l-1.1 4 4.1-1.1A9.8 9.8 0 1 0 12 2.2Zm0 1.8a8 8 0 1 1-4.3 14.8l-.3-.2-2.4.6.6-2.3-.2-.3A8 8 0 0 1 12 4Zm-3 4c-.2 0-.5 0-.7.4-.2.4-.9 1-.9 2.3s.9 2.6 1.1 2.8c.1.2 1.8 2.9 4.5 3.9 2.2.9 2.7.7 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.4-.2-.8-.4-.4-.2-2.2-1.1-2.5-1.2-.3-.1-.5-.2-.8.2-.2.3-.9 1.1-1.1 1.3-.2.2-.4.3-.8.1-.3-.2-1.4-.5-2.6-1.6-1-.9-1.6-2-1.8-2.3-.2-.3 0-.5.1-.7.2-.2.4-.4.6-.7.2-.2.3-.4.4-.6.1-.2.1-.5 0-.7-.1-.2-.7-1.7-1-2.3-.2-.5-.4-.4-.6-.4Z"/></svg>
+        </a>
+      </div>
+      <span>© 2026 Pava Media · Productora oficial de <a href="https://laligapava.com/" target="_blank" rel="noopener">La Liga Pava</a></span>
+    </div>
+  </div>
+  <div class="foot-wordmark pm-footer-wordmark" aria-hidden="true"><span>PAVA MEDIA</span></div>
+</footer>
+
+<script>
+(function(){
+  var els = document.querySelectorAll('.reveal');
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } });
+  },{threshold:0.15});
+  els.forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>
